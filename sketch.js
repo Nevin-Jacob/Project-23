@@ -17,7 +17,8 @@ function preload() {
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
-
+  
+  //adding to Matter world
   engine = Engine.create();
   world = engine.world;
 
